@@ -10,6 +10,7 @@ Hands-on solutions to five common cloud engineering team problems. Each folder i
 | `problem2-monitoring` | Reactive monitoring | Prometheus + Grafana stack with a dashboard and an alert on error rate |
 | `problem3-automation` | Resource constraints | Health-check script that runs automatically every 5 minutes |
 | `docs` | Missing documentation | Runbook and onboarding guide |
+| `.github/workflows` and `problem1-data-standardization/test_normalize.py` | Missing CI/CD | GitHub Actions pipeline that runs 7 unit tests, then validates and builds the monitoring app on every push |
 
 ## Prerequisites
 - Windows with PowerShell (VS Code terminal works)
