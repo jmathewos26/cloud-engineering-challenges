@@ -35,6 +35,8 @@ docker run hello-world
 | Script says "No such file or directory" | Wrong folder, or file not saved | Run `dir` to check; confirm the file size is above 0 |
 | Grafana won't load | Containers not running | `docker compose ps`, then `docker compose up -d` |
 | `git commit` says "Please tell me who you are" | Git identity not set | Run `git config --global user.name` and `user.email` |
+| Scheduled task is set up but never runs | Windows blocks scheduled tasks on battery power by default | Allow start on battery with `Set-ScheduledTask`, then check the log for unattended entries |
+| Pasted file contents show `>>` lines in the terminal | Content was pasted into the terminal instead of the editor | Press Ctrl + C, open the file on its own with `code`, paste into the editor tab, save, and check the size with `dir` |
 
 ## Working agreements
 - Verify with evidence (`dir`, logs, dashboards) before assuming something is broken.
