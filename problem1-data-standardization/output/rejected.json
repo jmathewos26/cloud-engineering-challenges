@@ -1,0 +1,35 @@
+[
+  {
+    "source": "finance_csv",
+    "raw": {
+      "order_id": "A-1003",
+      "order_date": "15-03-2026",
+      "customer": "C003",
+      "total": "$45.00",
+      "state": "paid"
+    },
+    "reason": "cannot parse: time data '15-03-2026' does not match format '%m/%d/%Y'"
+  },
+  {
+    "source": "finance_csv",
+    "raw": {
+      "order_id": "A-1004",
+      "order_date": "03/16/2026",
+      "customer": "",
+      "total": "$20.00",
+      "state": "PAID"
+    },
+    "reason": "missing customer_id"
+  },
+  {
+    "source": "web_api",
+    "raw": {
+      "id": "B-2003",
+      "created": 1773619200,
+      "customer_id": "C006",
+      "amount": -10,
+      "status": "completed"
+    },
+    "reason": "negative amount"
+  }
+]

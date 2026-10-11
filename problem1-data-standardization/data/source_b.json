@@ -1,0 +1,5 @@
+[
+  {"id": "B-2001", "created": 1773446400, "customer_id": "C004", "amount": 250.0, "status": "completed"},
+  {"id": "B-2002", "created": 1773532800, "customer_id": "C005", "amount": "75.5", "status": "FAILED"},
+  {"id": "B-2003", "created": 1773619200, "customer_id": "C006", "amount": -10, "status": "completed"}
+]

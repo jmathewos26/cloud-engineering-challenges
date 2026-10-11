@@ -1,0 +1,5 @@
+order_id,order_date,customer,total,state
+A-1001,03/14/2026,C001,"$1,200.50",PAID
+A-1002,03/15/2026,C002,$89.99,Pending
+A-1003,15-03-2026,C003,$45.00,paid
+A-1004,03/16/2026,,$20.00,PAID
