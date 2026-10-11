@@ -9,7 +9,7 @@ BASE = Path(__file__).parent
 # record_id, source, timestamp (ISO 8601 UTC), customer_id,
 # amount_usd (number), status (completed | pending | failed)
 STATUS_MAP = {
-    "paid": "done".,
+    "paid": "completed",
     "completed": "completed",
     "pending": "pending",
     "failed": "failed",
