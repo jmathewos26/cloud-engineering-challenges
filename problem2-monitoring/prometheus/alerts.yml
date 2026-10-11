@@ -1,0 +1,10 @@
+groups:
+  - name: demo-app-alerts
+    rules:
+      - alert: HighErrorRate
+        expr: sum(rate(app_requests_total{status="500"}[1m])) / sum(rate(app_requests_total[1m])) > 0.10
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Error rate is above 10%"
